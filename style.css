@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'PokemonGb';
+  src: url('https://cdn.jsdelivr.net/gh/heydiingo/streamfonts/PokemonGb-RAeo.woff') format('woff');
+}
+
+#alertContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* hidden until triggered */
+}
+
+#alertVideo {
+  position: absolute;
+  top: 20px;   /* vertical position */
+  left: 20px;  /* horizontal position */
+  width: 480px;
+  height: 270px;
+  z-index: 10;
+}
+
+#followerName {
+  position: absolute;
+  top: 190px;   /* vertical position of text */
+  left: 218px;  /* horizontal position of text */
+  font-size: 20px;
+  color: #3D522B;
+  font-family: 'PokemonGb', monospace;
+  white-space: nowrap;
+  text-align: left;
+  z-index: 20;
+}
